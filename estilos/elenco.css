@@ -1,0 +1,25 @@
+.oelencotodo {
+    text-align: center;
+}
+
+.elenco{
+    display: inline-block;
+    padding: 10px;
+}
+
+.elenco a{
+    text-decoration: none;
+    color: black;
+}
+
+.face{
+    max-width: 100%;
+    height: 230px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.nome {
+    text-align: center;
+}

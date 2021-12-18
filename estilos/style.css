@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    margin: 50px 100px 50px 100px;
+}
+embed {
+    float: right;
+    height: 90px;
+    width: 300px;
+    margin: -50px;
+}
+
+.play {
+    margin-right: 200px;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Itim', cursive;
+}
+
+article {
+    padding: 30px;
+}
+
+.inf-left {
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: rgb(79, 145, 216);
+    text-align: left;
+}
+
+.inf-right {
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: rgb(79, 145, 216);
+    text-align: right;
+}
+
+.inf-centro {
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: rgb(79, 145, 216);
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img-right {
+    width: auto;
+    height: 230px;
+    float: right;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.img-left {
+    width: auto;
+    height: 230px;
+    float: left;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.gif {
+    width: auto;
+    height: 250px;
+    float: left;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+
+
+.titulo:hover {
+    animation-name: topinho;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+}
+
+@keyframes topinho {
+    0%{
+        color: rgb(128, 228, 226);
+    }
+    25%{
+        color: rgb(31, 189, 206);
+    }
+    50%{
+        color: rgb(79, 145, 216);
+    }
+    75%{
+        color: rgb(153, 43, 226);
+    }
+    100%{
+        color: white;
+    }
+}
+
+#botao {
+    background-color: rgb(79, 145, 216);
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+}
+
+#botao:hover {
+    cursor: pointer;
+    background-color: white;
+    color:rgb(79, 145, 216);
+}
+
+video {
+    height: auto;
+    width: 1135px;
+    text-align: center;
+}
+
+#adiv {
+    display:none;
+
+}

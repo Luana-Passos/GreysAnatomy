@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    margin: 50px 100px 50px 100px;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Itim', cursive;
+}
+
+.img-left {
+    width: auto;
+    height: 450px;
+    padding: 30px;
+    border-radius: 50px;
+    float: left;
+}
+
+.img-right {
+    width: auto;
+    height: 450px;
+    padding: 30px;
+    border-radius: 50px;
+    float: right;
+}
+
+.demer {
+    width: auto;
+    height: 350px;
+    padding: 30px;
+    border-radius: 50px;
+    float: right;
+}
+
+.merfi {
+    width: auto;
+    height: 300px;
+    padding: 30px;
+    border-radius: 50px;
+    float: left;
+}
+
+.degif {
+    width: 500px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+    float: right;
+}
+
+.inf {
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: rgb(79, 145, 216);
+}
+
+p {
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+.titulo:hover {
+    animation-name: topinho;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:calc(3);
+}
+
+@keyframes topinho {
+    0%{
+        color: rgb(128, 228, 226);
+    }
+    25%{
+        color: rgb(31, 189, 206);
+    }
+    50%{
+        color: rgb(79, 145, 216);
+    }
+    75%{
+        color: rgb(153, 43, 226);
+    }
+    100%{
+        color: white;
+    }
+}
